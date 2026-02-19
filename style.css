@@ -125,6 +125,29 @@ video {
     display: inline-block;
 }
 
+.skills-section {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.skills-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.skills-image {
+    flex: 0 0 350px;
+}
+
+.skills-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
 
 
 
