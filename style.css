@@ -99,23 +99,28 @@ video {
 }
 .experience-section {
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: flex-start;
-    gap: 40px;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
 .experience-text {
     flex: 1;
+    min-width: 300px;
+}
+
+.experience-image {
+    flex: 0 0 350px;
 }
 
 .experience-image img {
-    max-width: 350px;
     width: 100%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
+
 
 
 
