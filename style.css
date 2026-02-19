@@ -139,13 +139,17 @@ video {
 }
 
 .skills-image {
-    flex: 0 0 240px;
+    width: 250px;        /* Hard width */
+    max-width: 250px;    /* Prevent expansion */
 }
 
 .skills-image img {
-    width: 100%;
-    max-width: 240px;
+    width: 250px;        /* Hard lock size */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
+
 
 
 
