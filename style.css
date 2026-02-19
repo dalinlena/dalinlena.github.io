@@ -75,3 +75,26 @@ nav a:hover {
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
+.page {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 60px;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.project-card h2 {
+    margin-top: 0;
+}
+
+video {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
