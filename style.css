@@ -99,10 +99,14 @@ nav a:hover {
 }
 
 video {
-    margin-top: 15px;
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;   /* controls width */
+    width: 100%;
+    max-height: 400px;  /* controls height */
     border-radius: 8px;
-    max-width: 100%;
 }
+
 
 .experience-section {
     display: flex;
