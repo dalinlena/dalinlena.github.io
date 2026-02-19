@@ -103,7 +103,7 @@ video {
     margin: 20px auto;
     max-width: 600px;   /* controls width */
     width: 100%;
-    max-height: 400px;  /* controls height */
+    max-height: 300px;  /* controls height */
     border-radius: 8px;
 }
 
