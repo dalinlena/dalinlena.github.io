@@ -97,4 +97,22 @@ video {
     margin-top: 20px;
     border-radius: 8px;
 }
+.experience-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.experience-text {
+    flex: 1;
+}
+
+.experience-image img {
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
 
